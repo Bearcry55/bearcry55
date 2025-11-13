@@ -1,0 +1,36 @@
+---
+import Layout from "../../layouts/ProjectLayout.astro";
+---
+
+<Layout title="RING — Rust Internet Network Grapher">
+  <section class="project">
+    <h1>🔍 RING — Rust Internet Network Grapher</h1>
+    <p>
+      <strong>RING</strong> is a blazing-fast, parallel network connectivity scanner written in
+      <strong>Rust</strong>. It combines TCP port scanning and ICMP ping with parallel execution and
+      JSON output — perfect for automation, monitoring, and CI/CD checks.
+    </p>
+
+    <h2>✨ Key Features</h2>
+    <ul>
+      <li>Parallel host and port scanning with async execution</li>
+      <li>Supports both TCP and ICMP ping modes</li>
+      <li>JSON output for automation and monitoring pipelines</li>
+      <li>Colorful, human-readable CLI interface</li>
+    </ul>
+
+    <h2>🧠 Tech Stack</h2>
+    <p><code>Rust</code> • <code>Tokio</code> • <code>Clap</code> • <code>Serde</code> • <code>Futures</code></p>
+
+    <h2>📊 Example Output</h2>
+    <pre>
+✅ google.com:80 → 3/3 successful (Avg: 45.20 ms)
+✅ google.com (ICMP) → 3/3 successful (Avg: 12.30 ms)
+    </pre>
+
+    <h2>🔗 Links</h2>
+    <p>
+      <a href="https://github.com/Bearcry55/ring" target="_blank">GitHub Repository</a>
+    </p>
+  </section>
+</Layout>

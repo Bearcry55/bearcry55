@@ -1,0 +1,135 @@
+---
+const { title = "Deep Narayan Banerjee | Portfolio", showHome = true } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+
+    <!-- Monogram favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%234f8cff'/><text x='50%' y='65%' font-size='60' text-anchor='middle' fill='white' font-family='Arial'>DN</text></svg>"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="/" class="logo">Deep Narayan Banerjee</a>
+      <div class="controls">
+        {showHome ? <a href="/" class="home-btn">← Back to Home</a> : null}
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <p>© 2025 Deep Narayan Banerjee — Built with Astro</p>
+    </footer>
+
+    <script>
+  const toggle = document.getElementById("theme-toggle");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const currentTheme = localStorage.getItem("theme");
+
+  if (currentTheme === "dark" || (!currentTheme && prefersDark)) {
+    document.body.classList.add("dark");
+  }
+
+  if (toggle) {
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      const isDark = document.body.classList.contains("dark");
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+      toggle.textContent = isDark ? "☀️" : "🌙";
+    });
+
+    // initialize correct icon
+    if (document.body.classList.contains("dark")) toggle.textContent = "☀️";
+  }
+</script>
+
+  </body>
+</html>
+
+<style>
+  :root {
+    --accent: #4f8cff;
+    --bg: #ffffff;
+    --text: #0e0e0e;
+  }
+
+  body.dark {
+    --bg: #0e0e0e;
+    --text: #e4e4e4;
+  }
+
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+    line-height: 1.6;
+  }
+
+  header {
+    background: var(--bg);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  }
+
+  .logo {
+    color: var(--accent);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .home-btn {
+    text-decoration: none;
+    color: var(--bg);
+    background: var(--accent);
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  .home-btn:hover {
+    background: #6fa3ff;
+  }
+
+  #theme-toggle {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    opacity: 0.6;
+  }
+</style>

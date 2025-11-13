@@ -1,0 +1,101 @@
+---
+import Layout from "../../layouts/ProjectLayout.astro";
+---
+
+<Layout title="🦀 rtodo — Terminal To-Do App">
+  <section class="project">
+    <h1>🦀 rtodo — Terminal To-Do App</h1>
+    <p>
+      <strong>rtodo</strong> is a terminal-based To-Do manager built in
+      <strong>Rust</strong> using <code>ratatui</code>, <code>crossterm</code>, and
+      <code>serde</code>. It’s a fast, keyboard-driven interface for managing tasks entirely from the terminal — colorful, responsive, and efficient.
+    </p>
+
+    <h2>✨ Key Features</h2>
+    <ul>
+      <li>Interactive TUI with task creation, editing, sorting, and status tracking</li>
+      <li>Color-coded progress bar and real-time updates</li>
+      <li>Persistent data storage in <code>todos.json</code></li>
+      <li>Fully keyboard navigable — designed for pure productivity</li>
+    </ul>
+
+    <h2>🧠 Tech Stack</h2>
+    <p><code>Rust</code> • <code>ratatui</code> • <code>crossterm</code> • <code>serde</code> • <code>JSON</code></p>
+
+    <h2>📸 Screenshot</h2>
+    <div class="img-wrapper">
+      <img 
+        src="https://github.com/user-attachments/assets/9b733d84-bd7a-4fa8-9443-7f7ec601c91e"
+        alt="rtodo screenshot"
+      />
+    </div>
+
+    <h2>🔗 Links</h2>
+    <p>
+      <a href="https://github.com/Bearcry55/rtodo" target="_blank">GitHub Repository</a>
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .project {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  h1 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    color: var(--accent);
+  }
+
+  p, li {
+    line-height: 1.6;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+  }
+
+  code {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+
+  body.dark code {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .img-wrapper {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+
+  .img-wrapper img {
+    width: 80%;
+    max-width: 500px; /* Adjust size here */
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+  }
+
+  .img-wrapper img:hover {
+    transform: scale(1.03);
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
