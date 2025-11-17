@@ -1,43 +1,72 @@
-# Astro Starter Kit: Minimal
+# 🚀 Deep Narayan Banerjee  
+**Rust & Kotlin Developer | Building Fast, Private, and Elegant Software**
 
-```sh
-npm create astro@latest -- --template minimal
-```
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🧑‍💻 About Me
+I’m a developer who enjoys crafting **fast, secure, and minimal** software.  
+I love working with **Rust** and **Kotlin (Jetpack Compose)** to build apps that feel native, efficient, and polished.
 
-## 🚀 Project Structure
+My focus is always on **privacy-first, open-source tools** that make developers’ lives easier.
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 🔥 Projects
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### 🦀 **rtodo**
+A fast and minimal **terminal-based To-Do app** built in Rust using `ratatui` and `crossterm`.  
+▶ Persistent, efficient, clean UI.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+🔗 **Project:** `/projects/rtodo`
 
-Any static assets, like images, can be placed in the `public/` directory.
+---
 
-## 🧞 Commands
+### 🔍 **RING**
+A **parallel network connectivity scanner** built with async Rust.  
+Blazing fast, CLI-friendly, and developer-focused.
 
-All commands are run from the root of the project, from a terminal:
+🔗 **Project:** `/projects/ring`
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
+### 🦊 **Quietfox Browser**
+A lightweight, **privacy-first web browser** written in Rust.  
+Zero tracking. Minimal UI. Efficient by design.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+🔗 **Project:** `/projects/quietfox`
+
+---
+
+## 🛠️ In Development
+
+### 📱 **ComposeNotes**
+A simple, offline-friendly **note-taking app** built with Kotlin + Jetpack Compose.  
+Designed with elegance and local-first storage.
+
+---
+
+### 🌐 **Astrofolio**
+This very portfolio — built with **Astro**, dark mode support, clean design, and easy deployment.
+
+---
+
+## 💡 Skills
+
+- 🦀 **Rust & Cargo**
+- 💻 **JavaScript / Astro / Web Dev**
+- 📱 **Kotlin & Jetpack Compose**
+- ⚙️ **Linux & CLI Tooling**
+- 🔐 **Privacy-focused Development**
+
+---
+
+## 📬 Contact
+Let’s connect! Open to collaborations, side projects, or deep discussions about Rust and systems design.
+
+📧 Email: **deepnarayanbanerjee@gmail.com**  
+💻 GitHub: **https://github.com/Bearcry55**
+
+---
+
+## © 2025
+Built with ❤️ using Astro.
