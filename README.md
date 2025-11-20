@@ -1,72 +1,81 @@
 # 🚀 Deep Narayan Banerjee  
-**Rust & Kotlin Developer | Building Fast, Private, and Elegant Software**
+**Rust & Kotlin Developer | Local-First Software | Privacy by Design**
+
+I build software that respects both performance and simplicity.  
+Rust shapes my systems work, Kotlin powers my Android apps, and JavaScript still has its place when I need clean, efficient web tooling.
 
 ---
 
 ## 🧑‍💻 About Me
-I’m a developer who enjoys crafting **fast, secure, and minimal** software.  
-I love working with **Rust** and **Kotlin (Jetpack Compose)** to build apps that feel native, efficient, and polished.
 
-My focus is always on **privacy-first, open-source tools** that make developers’ lives easier.
+I prefer tools that stay out of the user’s way.  
+My focus stays on fast binaries, clean interfaces, and privacy-first approaches.  
+I also handle Linux systems comfortably — from setup to maintenance across multiple machines.
 
 ---
 
 ## 🔥 Projects
 
-### 🦀 **rtodo**
-A fast and minimal **terminal-based To-Do app** built in Rust using `ratatui` and `crossterm`.  
-▶ Persistent, efficient, clean UI.
+### 🦀 rtodo
+A terminal-first to-do manager built in Rust.  
+Powered by `ratatui` and `crossterm`, with persistent storage.
 
 🔗 **Project:** `/projects/rtodo`
 
 ---
 
-### 🔍 **RING**
-A **parallel network connectivity scanner** built with async Rust.  
-Blazing fast, CLI-friendly, and developer-focused.
+### 🔍 RING
+A parallel network connectivity scanner using async Rust.  
+Fast output, practical usage, and a solid CLI experience.
 
 🔗 **Project:** `/projects/ring`
 
 ---
 
-### 🦊 **Quietfox Browser**
-A lightweight, **privacy-first web browser** written in Rust.  
-Zero tracking. Minimal UI. Efficient by design.
+### 🦊 Quietfox Browser
+A lightweight, privacy-focused browser written in Rust.  
+Minimal interface, tracking-free, efficient.
 
 🔗 **Project:** `/projects/quietfox`
 
 ---
 
-## 🛠️ In Development
+### 📝 gim
+A clean, fast system information + monitoring tool.  
+Nothing extra — just the essentials displayed well.
 
-### 📱 **ComposeNotes**
-A simple, offline-friendly **note-taking app** built with Kotlin + Jetpack Compose.  
-Designed with elegance and local-first storage.
+🔗 **Project:** `/projects/gim`
 
 ---
 
-### 🌐 **Astrofolio**
-This very portfolio — built with **Astro**, dark mode support, clean design, and easy deployment.
+### 📣 notio
+A modern custom notification app built with Kotlin + Jetpack Compose.  
+Design-first, responsive, and entirely local.
+
+🔗 **Project:** `/projects/notio`
 
 ---
 
 ## 💡 Skills
 
-- 🦀 **Rust & Cargo**
-- 💻 **JavaScript / Astro / Web Dev**
-- 📱 **Kotlin & Jetpack Compose**
-- ⚙️ **Linux & CLI Tooling**
-- 🔐 **Privacy-focused Development**
+- Rust (CLI tools, async workflows, performance-focused development)  
+- Kotlin & Jetpack Compose  
+- JavaScript & Astro  
+- Linux system administration  
+- Shell scripting (Bash/Zsh)  
+- Git, GitHub workflows  
+- Building and maintaining multi-machine environments  
+- Networking basics (ports, scanning, diagnostics)  
+- Privacy-centered application design  
+- UI/UX fundamentals for dev tools and Android  
 
 ---
 
 ## 📬 Contact
-Let’s connect! Open to collaborations, side projects, or deep discussions about Rust and systems design.
-
-📧 Email: **deepnarayanbanerjee@gmail.com**  
-💻 GitHub: **https://github.com/Bearcry55**
+Email: **deepnarayanbanerjee@gmail.com**  
+GitHub: **https://github.com/Bearcry55**
 
 ---
 
 ## © 2025
-Built with ❤️ using Astro.
+Built with ♥ using Astro.
